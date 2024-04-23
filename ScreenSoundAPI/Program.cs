@@ -36,7 +36,8 @@ using (HttpClient Client = new())
 
         //musicasPreferidasEmilly.GerarArquivoJson();
 
-        musicas[1].ExibirDetalhes();
+        //musicas[1].ExibirDetalhes();
+        LinqFilter.ExibirTonalidadeCsharp(musicas);
 
     }
     catch (Exception ex)
