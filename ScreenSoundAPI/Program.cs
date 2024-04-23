@@ -34,6 +34,7 @@ using (HttpClient Client = new())
 
         musicasPreferidasEmilly.ExibirMusicasFavoritas();
 
+        musicasPreferidasEmilly.GerarArquivoJson();
 
 
     }
